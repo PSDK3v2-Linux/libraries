@@ -2,7 +2,7 @@
 # sdl_psl1ght_libs.sh by Dan Peori (dan.peori@oopo.net)
 
 ## Download the source code.
-wget --no-check-certificate https://github.com/zeldin/SDL_PSL1GHT_Libs/tarball/master -O sdl_psl1ght_libs.tar.gz
+wget --no-check-certificate https://github.com/zeldin/SDL_PSL1GHT_Libs/archive/e18abb0d928c3410756cd8d52da64175289beb0d.tar.gz -O sdl_psl1ght_libs.tar.gz
 
 ## Unpack the source code.
 rm -Rf sdl_psl1ght_libs && mkdir sdl_psl1ght_libs && tar --strip-components=1 --directory=sdl_psl1ght_libs -xvzf sdl_psl1ght_libs.tar.gz
