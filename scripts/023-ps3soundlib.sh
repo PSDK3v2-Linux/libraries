@@ -9,4 +9,4 @@ wget --no-check-certificate https://github.com/rhynec/ps3soundlib/archive/a42a75
 rm -Rf ps3soundlib && mkdir ps3soundlib && tar --strip-components=1 --directory=ps3soundlib -xvzf ps3soundlib.tar.gz && cd ps3soundlib
 
 ## Compile and install.
-${MAKE:-make}
+${MAKE:-make} install -C libs --no-print-directory
